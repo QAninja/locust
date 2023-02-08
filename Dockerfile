@@ -1,4 +1,4 @@
-FROM python:3.6.6-alpine3.8
+FROM python:3.12.0a3-slim-bullseye
 
 RUN apk --no-cache add g++ \ 
       && apk --no-cache add zeromq-dev \
